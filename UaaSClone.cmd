@@ -1,0 +1,1 @@
+git clone https://dev-clouddeveloper-jmatteson-proworks-com.scm.s1.umbraco.io/d44b42f9-3686-49b0-8d85-6daaefe44ef4.git MyCloudSite.Web
