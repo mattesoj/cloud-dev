@@ -104,6 +104,9 @@
     <Reference Include="MySql.Data">
       <HintPath>..\packages\MySql.Data.6.9.12\lib\net45\MySql.Data.dll</HintPath>
     </Reference>
+    <Reference Include="Octokit, Version=0.32.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Octokit.0.32.0\lib\net45\Octokit.dll</HintPath>
+    </Reference>
     <Reference Include="Semver">
       <HintPath>..\packages\semver.1.1.2\lib\net45\Semver.dll</HintPath>
     </Reference>
@@ -135,8 +138,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\GithubHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

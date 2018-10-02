@@ -6,6 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MyCloudSite.Web", "MyCloudSite.Web\", "{CECCDC81-D63F-4304-88C3-D90C0B3C6303}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{0ed34d4d-1b86-4df6-b26f-939c74025f7c}|MyCloudSite.Core.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_6324"
 		Debug.AspNetCompiler.PhysicalPath = "MyCloudSite.Web\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_6324\"
